@@ -26,4 +26,8 @@ file_entry.grid(row=0, column=0, padx=5, pady=5)
 file_btn = ttk.Button(file_frame, text= 'select file', compound=select_file)
 file_btn.grid(row= 0, column= 0, padx=0, pady= 5)
 
+winner_label = ttk.Label(window, text= 'Select the participants file.', font=('Arial', 14), background= '', foreground='')
+winner_entry = ttk.Entry(window, font=('Arial', 12))
+winner_entry.grid(row=0, column=0, padx=5, pady=5)
+winner_entry.pack()
 window.mainloop()
